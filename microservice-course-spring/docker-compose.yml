@@ -8,7 +8,7 @@ services:
       - vale-network
 
   naming-server:
-    image: jvictorvale/naming-server
+    image: jvictorvale/naming-server:0.0.1-SNAPSHOT
     build:
       context: ./naming-server
       dockerfile: Dockerfile
@@ -21,7 +21,7 @@ services:
       - vale-network
 
   api-gateway:
-    image: jvictorvale/api-gateway
+    image: jvictorvale/api-gateway:0.0.1-SNAPSHOT
     build:
       context: ./api-gateway
       dockerfile: Dockerfile
@@ -66,7 +66,7 @@ services:
       - vale-network
 
   exchange_service:
-    image: jvictorvale/exchange_service
+    image: jvictorvale/exchange_service:0.0.1-SNAPSHOT
     restart: always
     build:
       context: ./exchange-service
@@ -88,7 +88,7 @@ services:
       - vale-network
 
   book_service:
-    image: jvictorvale/book_service
+    image: jvictorvale/book_service:0.0.1-SNAPSHOT
     restart: always
     build:
       context: ./book-service
