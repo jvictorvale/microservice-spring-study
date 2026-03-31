@@ -3,3 +3,5 @@
 /book-service/target/
 /exchange-service/target/
 /naming-server/target/
+
+**/ .idea/
