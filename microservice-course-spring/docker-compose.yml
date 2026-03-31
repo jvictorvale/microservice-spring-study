@@ -65,8 +65,8 @@ services:
     networks:
       - vale-network
 
-  exchange_service:
-    image: jvictorvale/exchange_service:0.0.1-SNAPSHOT
+  exchange-service:
+    image: jvictorvale/exchange-service:0.0.1-SNAPSHOT
     restart: always
     build:
       context: ./exchange-service
@@ -87,8 +87,8 @@ services:
     networks:
       - vale-network
 
-  book_service:
-    image: jvictorvale/book_service:0.0.1-SNAPSHOT
+  book-service:
+    image: jvictorvale/book-service:0.0.1-SNAPSHOT
     restart: always
     build:
       context: ./book-service
