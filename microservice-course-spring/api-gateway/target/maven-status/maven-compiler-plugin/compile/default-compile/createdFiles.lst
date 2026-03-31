@@ -1,0 +1,5 @@
+br\com\vale\config\CorsConfig.class
+br\com\vale\config\ZipkinCustomSenderConfig.class
+br\com\vale\config\OpenApiConfiguration.class
+br\com\vale\filter\LoggingFilter.class
+br\com\vale\Startup.class

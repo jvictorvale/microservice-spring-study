@@ -1,0 +1,6 @@
+C:\Dev\microservice-course-spring\api-gateway\src\main\java\br\com\vale\config\ApiGatewayConfiguration.java
+C:\Dev\microservice-course-spring\api-gateway\src\main\java\br\com\vale\config\CorsConfig.java
+C:\Dev\microservice-course-spring\api-gateway\src\main\java\br\com\vale\config\OpenApiConfiguration.java
+C:\Dev\microservice-course-spring\api-gateway\src\main\java\br\com\vale\config\ZipkinCustomSenderConfig.java
+C:\Dev\microservice-course-spring\api-gateway\src\main\java\br\com\vale\filter\LoggingFilter.java
+C:\Dev\microservice-course-spring\api-gateway\src\main\java\br\com\vale\Startup.java
