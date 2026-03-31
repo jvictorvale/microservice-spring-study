@@ -1,8 +1,0 @@
-br\com\vale\config\WebConfig.class
-br\com\vale\model\Exchange.class
-br\com\vale\controller\ExchangeController.class
-br\com\vale\repository\ExchangeRepository.class
-br\com\vale\environment\InstanceInformationService.class
-br\com\vale\config\ZipkinCustomSenderConfig.class
-br\com\vale\config\OpenApiConfiguration.class
-br\com\vale\Startup.class

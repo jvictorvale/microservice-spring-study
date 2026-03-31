@@ -4,4 +4,5 @@
 /exchange-service/target/
 /naming-server/target/
 
-**/ .idea/
+**/.idea/
+**/target/
