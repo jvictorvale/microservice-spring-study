@@ -36,3 +36,22 @@ O projeto explora os principais padrões (patterns) de sistemas distribuídos:
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/jvictorvale/microservice-spring-study.git](https://github.com/jvictorvale/microservice-spring-study.git)
+
+2. Realize o build de todos os módulos:
+   ```bash
+   mvn clean install
+
+3. Suba o ambiente via Docker Compose (opcional, se configurado):
+ ```bash
+   docker-compose up -d
+ ```
+
+Roadmap de Estudo
+- [x] Configuração inicial dos módulos Spring Boot.
+- [x] Implementação de Dockerfile para os serviços.
+- [x] Configuração do Service Discovery (Eureka).
+- [x] Implementação de API Gateway.
+- [x] Adição de Distributed Tracing (Zipkin/Sleuth).
+
+👨‍💻 Desenvolvedor
+Victor Vale - Full Stack Developer
